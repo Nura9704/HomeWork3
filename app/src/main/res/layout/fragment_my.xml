@@ -4,22 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#FFC107"
+    tools:context=".MyFragment">
 
-    <Button
-        android:id="@+id/showFragmentButton"
+    <TextView
+        android:id="@+id/fragmentThreeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Fragment"
-        app:layout_constraintBottom_toTopOf="@id/contentFragment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <FrameLayout
-        android:id="@+id/contentFragment"
-        android:layout_width="0dp"
-        android:layout_height="250dp"
+        android:text="My Fragment"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
